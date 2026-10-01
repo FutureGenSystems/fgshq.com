@@ -1,39 +1,195 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>FGS HQ — Ayush Parida, FutureGen Systems</title>
-<meta name="description" content="fgshq.com is the outreach address of FutureGen Systems. Private AI workspaces for professional firms and cloud repatriation for SaaS teams.">
-<meta name="robots" content="noindex,follow">
-<link rel="canonical" href="https://futuregensystems.com/">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FutureGenSystems</title>
+<meta name="description" content="AI, cloud and full-stack engineering out of Dehradun. We build and operate production systems for developer-facing products.">
+<link rel="canonical" href="https://fgshq.com/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://fgshq.com/">
+<meta property="og:site_name" content="FutureGenSystems">
+<meta property="og:title" content="FutureGenSystems">
+<meta property="og:description" content="AI, cloud and full-stack engineering out of Dehradun. We build and operate production systems for developer-facing products.">
 <style>
-:root{--bg:#020617;--card:#0f172a;--line:rgba(255,255,255,.1);--text:#e2e8f0;--muted:#94a3b8;--accent:#60a5fa}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
-main{max-width:880px;margin:0 auto;padding:64px 16px}
-h1{font-size:clamp(28px,5vw,40px);line-height:1.2;margin:0 0 12px;color:#fff}
-p{margin:0 0 16px}.muted{color:var(--muted)}
-.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));margin:32px 0}
-a.card{display:block;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:24px;color:inherit;text-decoration:none}
-a.card:hover{border-color:var(--accent)}a.card h2{margin:4px 0 8px;font-size:20px;color:#fff}
-.tag{font-size:13px;font-weight:600;color:var(--accent)}.go{color:var(--accent);font-weight:600}
-.note{border-top:1px solid var(--line);padding-top:24px;margin-top:40px;font-size:14px}
-a{color:var(--accent)}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+body{background:#080808;color:#e2e2e2;font-family:-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;min-height:100vh;padding:4rem 2rem}
+.wrap{max-width:700px;margin:0 auto}
+.eyebrow{font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;color:#333;margin-bottom:2.5rem}
+h1{font-size:clamp(2.2rem,6vw,3.8rem);font-weight:700;letter-spacing:-.03em;color:#fff;line-height:1.05;margin-bottom:.4rem}
+.sub{font-size:clamp(.95rem,2.5vw,1.25rem);color:#444;margin-bottom:2rem;font-weight:400}
+.desc{color:#666;line-height:1.75;max-width:560px;margin-bottom:3rem;font-size:.95rem}
+.tags{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:3.5rem}
+.tag{font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;padding:.3rem .65rem;border:1px solid #1c1c1c;color:#444;border-radius:2px}
+.divider{border:none;border-top:1px solid #111;margin:3rem 0}
+.section-label{font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;color:#2a2a2a;margin-bottom:1.8rem}
+.products{display:flex;flex-direction:column;gap:0}
+.product{padding:1.4rem 0;border-bottom:1px solid #0f0f0f;display:flex;justify-content:space-between;align-items:flex-start;gap:1.5rem}
+.product:first-child{border-top:1px solid #0f0f0f}
+.product-left{flex:1}
+.product-name{font-size:.95rem;font-weight:500;color:#ccc;margin-bottom:.25rem}
+.product-tagline{font-size:.8rem;color:#444;line-height:1.5;margin-bottom:.5rem}
+.product-stack{display:flex;flex-wrap:wrap;gap:.3rem}
+.stack-tag{font-size:.58rem;letter-spacing:.08em;color:#2a2a2a;background:#0d0d0d;padding:.15rem .4rem;border-radius:2px}
+.product-right{flex-shrink:0;display:flex;flex-direction:column;align-items:flex-end;gap:.4rem}
+.badge{font-size:.58rem;letter-spacing:.1em;text-transform:uppercase;padding:.2rem .5rem;border-radius:2px}
+.badge-live{color:#1a5c1a;background:#0a180a;border:1px solid #0f2e0f}
+.badge-oss{color:#1a3a5c;background:#0a1020;border:1px solid #0f2040}
+.badge-beta{color:#3a3a1a;background:#181800;border:1px solid #2e2e00}
+.product-link{font-size:.72rem;color:#2a2a2a;text-decoration:none;border-bottom:1px solid #1a1a1a;padding-bottom:1px}
+.product-link:hover{color:#888;border-color:#444}
+.contact{display:flex;flex-wrap:wrap;gap:2rem;margin-top:3rem}
+.contact a{color:#555;text-decoration:none;font-size:.85rem;border-bottom:1px solid #1a1a1a;padding-bottom:2px}
+.contact a:hover{color:#bbb;border-color:#555}
+footer{margin-top:3.5rem;font-size:.65rem;color:#222;letter-spacing:.05em}
+a:focus-visible{outline:1px solid #555;outline-offset:3px}
 </style>
 </head>
 <body>
-<main>
-<p class="tag">You probably got an email from this domain</p>
-<h1>Hi, I'm Ayush Parida, founder of FutureGen Systems.</h1>
-<p class="muted">fgshq.com is the address I use for outreach. The company, the work and the contracts all live at <a href="https://futuregensystems.com">futuregensystems.com</a>. I help teams that have real infrastructure and nobody who owns it, in two fixed-price ways:</p>
-<div class="grid">
-<a class="card" href="https://futuregensystems.com/private-ai"><span class="tag">For law, accounting and advisory firms</span><h2>Private AI Workspace</h2><p class="muted">A ChatGPT-style assistant over your firm's documents, running in your own cloud. Client data never leaves your environment.</p><span class="go">See what's included →</span></a>
-<a class="card" href="https://futuregensystems.com/migrate"><span class="tag">For SaaS teams without an infra hire</span><h2>Cloud Repatriation</h2><p class="muted">Move off Vercel, AWS or GCP to servers you own, with deploys, backups, monitoring and a rehearsed rollback.</p><span class="go">See what's included →</span></a>
+<div class="wrap">
+<div class="eyebrow">Dehradun, India</div>
+<h1>FutureGenSystems</h1>
+<p class="sub">AI, cloud &amp; full-stack engineering</p>
+<p class="desc">We build and operate production systems for developer-facing products &mdash; from architecture and AI integration through deployment and long-term support. Our own products run in production today, built by the same team that builds for clients.</p>
+<div class="tags">
+<span class="tag">Full-Stack Engineering</span>
+<span class="tag">AI Integrations</span>
+<span class="tag">DevOps &amp; Infrastructure</span>
+<span class="tag">API Design</span>
+<span class="tag">SaaS Products</span>
+<span class="tag">Cloud Architecture</span>
 </div>
-<div class="note muted">
-<p><strong>Didn't want the email?</strong> Reply "no thanks" to it, or write to <a href="mailto:ayush@fgshq.com?subject=no%20thanks">ayush@fgshq.com</a>, and you won't hear from me again. I only email business addresses, one message plus at most one follow-up.</p>
-<p>FutureGen Systems · Dehradun, India · <a href="https://futuregensystems.com/privacy-policy">Privacy policy</a></p>
+<hr class="divider">
+<div class="section-label">Products we build and operate</div>
+<div class="products">
+
+<div class="product">
+<div class="product-left">
+<div class="product-name">TechLogHub</div>
+<div class="product-tagline">Developer platform combining product discovery, release tracking, community feedback, and 65+ free browser-based dev tools.</div>
+<div class="product-stack">
+<span class="stack-tag">Next.js</span>
+<span class="stack-tag">React</span>
+<span class="stack-tag">TypeScript</span>
+<span class="stack-tag">Tailwind</span>
+<span class="stack-tag">PostgreSQL</span>
 </div>
-</main>
+</div>
+<div class="product-right">
+<span class="badge badge-live">Live</span>
+<a class="product-link" href="https://techloghub.com" rel="noopener" target="_blank">techloghub.com</a>
+</div>
+</div>
+
+<div class="product">
+<div class="product-left">
+<div class="product-name">EasySiteControl</div>
+<div class="product-tagline">Multi-tenant Backend-as-a-Service with a headless CMS, media management, and REST API &mdash; deploy your backend without writing server code.</div>
+<div class="product-stack">
+<span class="stack-tag">Node.js</span>
+<span class="stack-tag">MongoDB</span>
+<span class="stack-tag">Docker</span>
+<span class="stack-tag">REST API</span>
+</div>
+</div>
+<div class="product-right">
+<span class="badge badge-live">Live</span>
+<a class="product-link" href="https://easysitecontrol.com" rel="noopener" target="_blank">easysitecontrol.com</a>
+</div>
+</div>
+
+<div class="product">
+<div class="product-left">
+<div class="product-name">Linqry</div>
+<div class="product-tagline">Cookieless web analytics with multi-step funnels, goals, real-time and revenue attribution &mdash; in one hosted dashboard.</div>
+<div class="product-stack">
+<span class="stack-tag">Next.js</span>
+<span class="stack-tag">TypeScript</span>
+<span class="stack-tag">ClickHouse</span>
+</div>
+</div>
+<div class="product-right">
+<span class="badge badge-live">Live</span>
+<a class="product-link" href="https://linqry.com" rel="noopener" target="_blank">linqry.com</a>
+</div>
+</div>
+
+<div class="product">
+<div class="product-left">
+<div class="product-name">SoftechLog</div>
+<div class="product-tagline">Activity logging infrastructure for SaaS &mdash; drop-in audit trails, event streams, and user activity feeds with a managed backend.</div>
+<div class="product-stack">
+<span class="stack-tag">Node.js</span>
+<span class="stack-tag">PostgreSQL</span>
+<span class="stack-tag">REST API</span>
+<span class="stack-tag">Docker</span>
+</div>
+</div>
+<div class="product-right">
+<span class="badge badge-beta">Beta</span>
+<a class="product-link" href="https://softechlog.com" rel="noopener" target="_blank">softechlog.com</a>
+</div>
+</div>
+
+<div class="product">
+<div class="product-left">
+<div class="product-name">FGS Certificates</div>
+<div class="product-tagline">Certificate issuance, verification, and management platform &mdash; generate and verify tamper-evident digital certificates at scale.</div>
+<div class="product-stack">
+<span class="stack-tag">Next.js</span>
+<span class="stack-tag">Node.js</span>
+<span class="stack-tag">PostgreSQL</span>
+</div>
+</div>
+<div class="product-right">
+<span class="badge badge-live">Live</span>
+<a class="product-link" href="https://certificates.futuregensystems.com" rel="noopener" target="_blank">certificates.futuregensystems.com</a>
+</div>
+</div>
+
+<div class="product">
+<div class="product-left">
+<div class="product-name">BastionSSH</div>
+<div class="product-tagline">Self-hosted SSH manager for teams &mdash; browser-based terminals, centralized key management, audit logs, and app-level cron jobs.</div>
+<div class="product-stack">
+<span class="stack-tag">TypeScript</span>
+<span class="stack-tag">React</span>
+<span class="stack-tag">Docker</span>
+<span class="stack-tag">Open Source</span>
+</div>
+</div>
+<div class="product-right">
+<span class="badge badge-oss">OSS</span>
+<a class="product-link" href="https://github.com/ayush-parida/bastionssh.com" rel="noopener" target="_blank">github.com/ayush-parida/bastionssh.com</a>
+</div>
+</div>
+
+<div class="product">
+<div class="product-left">
+<div class="product-name">AirAlliance</div>
+<div class="product-tagline">Browser-based airline tycoon built on a live 3D globe &mdash; real fleets, hub-and-spoke routing, AI rival carriers, and a weekly world leaderboard.</div>
+<div class="product-stack">
+<span class="stack-tag">React</span>
+<span class="stack-tag">three.js</span>
+<span class="stack-tag">Node.js</span>
+<span class="stack-tag">Canvas API</span>
+</div>
+</div>
+<div class="product-right">
+<span class="badge badge-beta">Beta</span>
+<a class="product-link" href="https://play.futuregensystems.com" rel="noopener" target="_blank">play.futuregensystems.com</a>
+</div>
+</div>
+
+</div>
+
+<hr class="divider">
+
+<div class="contact">
+<a href="https://futuregensystems.com" rel="noopener" target="_blank">futuregensystems.com</a>
+<a href="mailto:info@futuregensystems.com">info@futuregensystems.com</a>
+</div>
+<footer>&mdash; fgshq.com &nbsp;&middot;&nbsp; Available for select engagements</footer>
+</div>
 </body>
 </html>
